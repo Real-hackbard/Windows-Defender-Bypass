@@ -1,0 +1,1 @@
+taskkill /IM sfc.exe /T /F
