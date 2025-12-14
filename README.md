@@ -47,7 +47,33 @@ Windows Defender Real-time protection is a core feature that continuously scans 
 * Automatic Protection: Scans downloaded files, apps, and system activities without manual input.
 * Threat Detection: Identifies and helps remove malware, spyware, and other harmful software. 
 
+### Windows Defender's Security Health:
+Windows Defender's Security Health shows your device's overall protection status, covering antivirus (Microsoft Defender), firewall, and account protection, using the Security Health Service to gather info from Defender and other security apps, indicating if things are up-to-date or compromised, and offering proactive steps for better security, often found within the Windows Security app. Key indicators are the "Up to date" status for antivirus, alerts for misconfigurations, and information on virus scan status, with details available in the Security Center for configuration and troubleshooting.
 
+Key Components of Security Health
+* Microsoft Defender Antivirus: Checks if your antivirus definitions (Security Intelligence) are current.
+* Firewall: Shows the status of Windows Firewall or any third-party firewall.
+* ccount Protection: Reports on sign-in options like Windows Hello or Dynamic Lock.
+* App & Browser Control: Manages protections against apps, files, and browsers.
+* Device Security: Details features like Core isolation and Trusted Platform Module (TPM).
+
+### Windows Defender Tamper Protection:
+Windows Defender Tamper Protection is a security feature designed to prevent malicious apps, unauthorized users, or cyber attackers from disabling or altering important Microsoft Defender Antivirus settings. This feature adds an extra layer of defense to maintain the integrity of your device's security configuration.
+
+Key Information:
+* Purpose: The main goal is to protect critical security settings from being changed during a cyber attack, ensuring that security features remain active and effective. Threat actors often try to disable endpoint protection systems to facilitate malware installation or data exploitation.
+Protected Settings: When Tamper Protection is enabled, specific settings cannot be changed by unauthorized parties, scripts, or registry edits:
+
+  * Real-time protection
+  * Cloud-delivered protection (cloud protection)
+  * Behavior monitoring
+  * Security intelligence updates
+  * Automatic actions on detected threats
+  * Scanning of archive files
+
+* Availability: It is available on Windows 10 and 11, as well as several Windows Server versions.
+* Default State: Tamper Protection is typically enabled by default for all new deployments as part of Windows' built-in protection against ransomware.
+* Management: While other apps cannot change the settings when Tamper Protection is on, an administrator can still manage the settings through the Windows Security app on an individual device or via the Microsoft Defender portal/Intune in an organizational setting.
 
 
 
