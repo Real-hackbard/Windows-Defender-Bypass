@@ -51,7 +51,7 @@ Windows [Defender Real-time protection](https://learn.microsoft.com/en-us/defend
 * Threat Detection: Identifies and helps remove malware, spyware, and other harmful software. 
 
 ### Windows Defender's Security Health:
-Windows Defender's Security Health shows your device's overall protection status, covering antivirus (Microsoft Defender), firewall, and account protection, using the Security Health Service to gather info from Defender and other security apps, indicating if things are up-to-date or compromised, and offering proactive steps for better security, often found within the Windows Security app. Key indicators are the "Up to date" status for antivirus, alerts for misconfigurations, and information on virus scan status, with details available in the Security Center for configuration and troubleshooting.
+[Windows Defender's Security Health](https://www.file.net/prozess/securityhealthservice.exe.html) shows your device's overall protection status, covering antivirus (Microsoft Defender), firewall, and account protection, using the Security Health Service to gather info from Defender and other security apps, indicating if things are up-to-date or compromised, and offering proactive steps for better security, often found within the Windows Security app. Key indicators are the "Up to date" status for antivirus, alerts for misconfigurations, and information on virus scan status, with details available in the Security Center for configuration and troubleshooting.
 
 Key Components of Security Health
 * Microsoft Defender Antivirus: Checks if your antivirus definitions (Security Intelligence) are current.
@@ -61,7 +61,7 @@ Key Components of Security Health
 * Device Security: Details features like Core isolation and Trusted Platform Module (TPM).
 
 ### Windows Defender Tamper Protection:
-Windows Defender Tamper Protection is a security feature designed to prevent malicious apps, unauthorized users, or cyber attackers from disabling or altering important Microsoft Defender Antivirus settings. This feature adds an extra layer of defense to maintain the integrity of your device's security configuration.
+[Windows Defender Tamper Protection](https://learn.microsoft.com/en-us/defender-endpoint/manage-tamper-protection-microsoft-365-defender) is a security feature designed to prevent malicious apps, unauthorized users, or cyber attackers from disabling or altering important Microsoft Defender Antivirus settings. This feature adds an extra layer of defense to maintain the integrity of your device's security configuration.
 
 Key Information:
 * Purpose: The main goal is to protect critical security settings from being changed during a cyber attack, ensuring that security features remain active and effective. Threat actors often try to disable endpoint protection systems to facilitate malware installation or data exploitation.
@@ -79,7 +79,7 @@ Protected Settings: When Tamper Protection is enabled, specific settings cannot 
 * Management: While other apps cannot change the settings when Tamper Protection is on, an administrator can still manage the settings through the Windows Security app on an individual device or via the Microsoft Defender portal/Intune in an organizational setting.
 
 ### Windows Defender updates:
-To disable Windows Defender updates, you generally stop Real-time protection temporarily in Windows Security for immediate needs, but for longer control, use Group Policy Editor (```gpedit.msc```) to disable Defender itself (Pro/Enterprise) or specific update services via Services Manager (```services.msc```), or use PowerShell commands like Set-MpPreference -DisableRealtimeMonitoring $true, but it's often automatically re-enabled by Windows unless a third-party antivirus is installed. 
+To disable [Windows Defender updates](https://www.microsoft.com/en-us/wdsi/defenderupdates), you generally stop Real-time protection temporarily in Windows Security for immediate needs, but for longer control, use Group Policy Editor (```gpedit.msc```) to disable Defender itself (Pro/Enterprise) or specific update services via Services Manager (```services.msc```), or use PowerShell commands like Set-MpPreference -DisableRealtimeMonitoring $true, but it's often automatically re-enabled by Windows unless a third-party antivirus is installed. 
 
 ### Windows bypass trusted installer:
 Bypassing TrustedInstaller permissions in the Windows registry generally requires taking ownership of the specific registry key or using elevated tools. There is no simple registry entry that globally disables this protection, as it is a core feature of Windows Resource Protection (WRP) designed to ensure system stability.
