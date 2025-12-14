@@ -102,13 +102,13 @@ for the service itself, protecting core system files/settings that only this acc
   * [1.2	Windows Defender (Beta 2)](https://microsoft.fandom.com/wiki/Microsoft_Defender#Windows_Defender_(Beta_2))
   * [1.3	Windows Defender - Release](https://microsoft.fandom.com/wiki/Microsoft_Defender#Windows_Defender_-_Release)
   * [1.4	Windows Defender - Vista](https://microsoft.fandom.com/wiki/Microsoft_Defender#Windows_Defender_-_Vista)
-    * 1.4.1	Security agents
-    * 1.4.2	Software Explorer
-  * 1.5	Conversion to full antivirus
-  * 1.6	Ongoing evolution of UI and brands
-    * 1.6.1	UI changes
-    * 1.6.2	Changes in branding and business focus
- * 2	Features
+    * [1.4.1	Security agents](https://microsoft.fandom.com/wiki/Microsoft_Defender#Security_agents)
+    * [1.4.2	Software Explorer](https://microsoft.fandom.com/wiki/Microsoft_Defender#Software_Explorer)
+  * [1.5	Conversion to full antivirus](https://microsoft.fandom.com/wiki/Microsoft_Defender#Conversion_to_full_antivirus)
+  * [1.6	Ongoing evolution of UI and brands](https://microsoft.fandom.com/wiki/Microsoft_Defender#Ongoing_evolution_of_UI_and_brands)
+    * [1.6.1	UI changes](https://microsoft.fandom.com/wiki/Microsoft_Defender#UI_changes)
+    * [1.6.2	Changes in branding and business focus](https://microsoft.fandom.com/wiki/Microsoft_Defender#Changes_in_branding_and_business_focus)
+ * 2	[Features](https://microsoft.fandom.com/wiki/Microsoft_Defender#Features)
    * 2.1	Application Guard
    * 2.2	Browser integration
    * 2.3	Controlled Folder Access
