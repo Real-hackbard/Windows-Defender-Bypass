@@ -25,7 +25,7 @@ In March 2019, Microsoft announced Microsoft Defender ATP for Mac for business c
 
 # Features:
 ### Kill Defender Smart Screen:
-Microsoft Defender SmartScreen protects against phishing or malware websites and applications, and the downloading of potentially malicious files.
+[Microsoft Defender SmartScreen](https://learn.microsoft.com/en-us/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/) protects against phishing or malware websites and applications, and the downloading of potentially malicious files.
 SmartScreen determines whether a site is potentially malicious by:
 
 * Analyzing visited webpages and looking for indications of suspicious behavior. If Microsoft Defender SmartScreen determines that a page is suspicious, it shows a warning page to advise caution.
