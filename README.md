@@ -109,14 +109,14 @@ for the service itself, protecting core system files/settings that only this acc
     * [1.6.1	UI changes](https://microsoft.fandom.com/wiki/Microsoft_Defender#UI_changes)
     * [1.6.2	Changes in branding and business focus](https://microsoft.fandom.com/wiki/Microsoft_Defender#Changes_in_branding_and_business_focus)
  * 2	[Features](https://microsoft.fandom.com/wiki/Microsoft_Defender#Features)
-   * 2.1	Application Guard
-   * 2.2	Browser integration
-   * 2.3	Controlled Folder Access
-   * 2.4	Real-time protection
-   * 2.5	Tamper Protection
-* 3	Reviews
-* 4	References
-* 5	External links
+   * 2.1	[Application Guard](https://microsoft.fandom.com/wiki/Microsoft_Defender#Application_Guard)
+   * 2.2	[Browser integration](https://microsoft.fandom.com/wiki/Microsoft_Defender#Browser_integration)
+   * 2.3	[Controlled Folder Access](https://microsoft.fandom.com/wiki/Microsoft_Defender#Controlled_Folder_Access)
+   * 2.4	[Real-time protection](https://microsoft.fandom.com/wiki/Microsoft_Defender#Real-time_protection)
+   * 2.5	[Tamper Protection](https://microsoft.fandom.com/wiki/Microsoft_Defender#Tamper_Protection)
+* 3	[Reviews](https://microsoft.fandom.com/wiki/Microsoft_Defender#Reviews)
+* 4	[References](https://microsoft.fandom.com/wiki/Microsoft_Defender#References)
+* 5	[External links](https://microsoft.fandom.com/wiki/Microsoft_Defender#External_links)
 
 
 
