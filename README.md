@@ -75,7 +75,8 @@ Protected Settings: When Tamper Protection is enabled, specific settings cannot 
 * Default State: Tamper Protection is typically enabled by default for all new deployments as part of Windows' built-in protection against ransomware.
 * Management: While other apps cannot change the settings when Tamper Protection is on, an administrator can still manage the settings through the Windows Security app on an individual device or via the Microsoft Defender portal/Intune in an organizational setting.
 
-
+### Windows Defender updates:
+To disable Windows Defender updates, you generally stop Real-time protection temporarily in Windows Security for immediate needs, but for longer control, use Group Policy Editor (```gpedit.msc```) to disable Defender itself (Pro/Enterprise) or specific update services via Services Manager (```services.msc```), or use PowerShell commands like Set-MpPreference -DisableRealtimeMonitoring $true, but it's often automatically re-enabled by Windows unless a third-party antivirus is installed. 
 
 
 
