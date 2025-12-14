@@ -14,6 +14,42 @@ Microsoft Defender (formerly known as Windows Defender and Microsoft AntiSpyware
 
 In March 2019, Microsoft announced Microsoft Defender ATP for Mac for business customers to protect their Mac devices from attacks on a corporate network; a year later, to expand protection for mobile devices, it announced Microsoft Defender ATP for [Android](https://microsoft.fandom.com/wiki/Android) and iOS devices, which incorporates Microsoft SmartScreen, a firewall, and malware scanning. The mobile version of Microsoft Defender also includes a feature that blocks access to corporate data if it detects that a malicious app is installed.
 
+</br>
+
+![DefBy](https://github.com/user-attachments/assets/fc998e17-1ae4-49e5-9938-b657936ec753)
+
+</br>
+
+# Features:
+### Kill Defender Smart Screen:
+Microsoft Defender SmartScreen protects against phishing or malware websites and applications, and the downloading of potentially malicious files.
+SmartScreen determines whether a site is potentially malicious by:
+
+* Analyzing visited webpages and looking for indications of suspicious behavior. If Microsoft Defender SmartScreen determines that a page is suspicious, it shows a warning page to advise caution.
+* Checking the visited sites against a dynamic list of reported phishing sites and malicious software sites. If it finds a match, Microsoft Defender SmartScreen shows a warning to let the user know that the site might be malicious.
+
+### Windows Defender Service:
+The WinDefend service is part of Microsoft Defender Antivirus — a real-time, anti-malware solution distributed with the Windows operating system.
+On computers where Microsoft Defender is the primary antivirus deployed, the WinDefend service is set to start automatically at boot. 
+
+### Windows Defender Antivirus Network Inspection Service:
+The Microsoft Defender Antivirus Network Inspection Service is running as NT AUTHORITY\LocalService in its own process of NisSrv.exe. It doesn't share its process with other services. If Microsoft Defender Antivirus Network Inspection Service fails to start, the error is logged. Windows 10 startup proceeds, but a message box is displayed informing you that the WdNisSvc service has failed to start.
+
+Microsoft Defender Antivirus Network Inspection Service is unable to start, if the [Microsoft Defender Antivirus Network Inspection](https://batcmd.com/windows/10/services/wdnisdrv/) System Driver service is stopped or disabled.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
