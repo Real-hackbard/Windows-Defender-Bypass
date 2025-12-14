@@ -10,7 +10,9 @@
 
 </br>
 
+Microsoft Defender (formerly known as Windows Defender and Microsoft AntiSpyware) is an antivirus software component from Microsoft that is designed to remove and quarantine malicious software in Microsoft Windows. It was first released as a downloadable free anti-spyware program for Windows XP and was shipped with Windows Vista and Windows 7. It has evolved into a full antivirus program, replacing [Microsoft Security Essentials](https://microsoft.fandom.com/wiki/Microsoft_Security_Essentials) in Windows 8 and later versions.
 
+In March 2019, Microsoft announced Microsoft Defender ATP for Mac for business customers to protect their Mac devices from attacks on a corporate network; a year later, to expand protection for mobile devices, it announced Microsoft Defender ATP for [Android](https://microsoft.fandom.com/wiki/Android) and iOS devices, which incorporates Microsoft SmartScreen, a firewall, and malware scanning. The mobile version of Microsoft Defender also includes a feature that blocks access to corporate data if it detects that a malicious app is installed.
 
 
 
