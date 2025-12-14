@@ -32,16 +32,16 @@ SmartScreen determines whether a site is potentially malicious by:
 * Checking the visited sites against a dynamic list of reported phishing sites and malicious software sites. If it finds a match, Microsoft Defender SmartScreen shows a warning to let the user know that the site might be malicious.
 
 ### Windows Defender Service:
-The WinDefend service is part of Microsoft Defender Antivirus — a real-time, anti-malware solution distributed with the Windows operating system.
+The [WinDefend service](https://cwsisecurity.com/our-four-practices/secure-cloud/security-and-threat-intelligence/microsoft-defender-services/) is part of Microsoft Defender Antivirus — a real-time, anti-malware solution distributed with the Windows operating system.
 On computers where Microsoft Defender is the primary antivirus deployed, the WinDefend service is set to start automatically at boot. 
 
 ### Windows Defender Antivirus Network Inspection Service:
-The Microsoft Defender Antivirus Network Inspection Service is running as NT AUTHORITY\LocalService in its own process of NisSrv.exe. It doesn't share its process with other services. If Microsoft Defender Antivirus Network Inspection Service fails to start, the error is logged. Windows 10 startup proceeds, but a message box is displayed informing you that the WdNisSvc service has failed to start.
+The [Microsoft Defender Antivirus Network Inspection Service](https://learn.microsoft.com/en-us/answers/questions/3730405/windows-defender-antivirus-network-inspection-serv) is running as NT AUTHORITY\LocalService in its own process of NisSrv.exe. It doesn't share its process with other services. If Microsoft Defender Antivirus Network Inspection Service fails to start, the error is logged. Windows 10 startup proceeds, but a message box is displayed informing you that the WdNisSvc service has failed to start.
 
 Microsoft Defender Antivirus Network Inspection Service is unable to start, if the [Microsoft Defender Antivirus Network Inspection](https://batcmd.com/windows/10/services/wdnisdrv/) System Driver service is stopped or disabled.
 
 ### Windows Defender keep alive off:
-keep Windows Defender's real-time protection running (alive), you generally do not need to do anything, as it is designed to run automatically. The setting to turn it off is only temporary; Windows will re-enable it on its own after a short while to ensure your device is protected.
+keep Windows Defender's real-time protection running ([alive](https://learn.microsoft.com/en-us/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)), you generally do not need to do anything, as it is designed to run automatically. The setting to turn it off is only temporary; Windows will re-enable it on its own after a short while to ensure your device is protected.
 
 ### Windows Defender real time monitoring:
 Windows Defender Real-time protection is a core feature that continuously scans for malware, viruses, and other threats in real-time, automatically scanning files and apps as they're downloaded or accessed to prevent infections. It's enabled by default in Windows 10/11 and works in the background, though you can manage it in the Windows Security app or via settings for troubleshooting, like when software conflicts occur, by temporarily toggling it on/off or configuring exclusions. 
