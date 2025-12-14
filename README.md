@@ -37,11 +37,15 @@ The Microsoft Defender Antivirus Network Inspection Service is running as NT AUT
 
 Microsoft Defender Antivirus Network Inspection Service is unable to start, if the [Microsoft Defender Antivirus Network Inspection](https://batcmd.com/windows/10/services/wdnisdrv/) System Driver service is stopped or disabled.
 
+### Windows Defender keep alive off:
+keep Windows Defender's real-time protection running (alive), you generally do not need to do anything, as it is designed to run automatically. The setting to turn it off is only temporary; Windows will re-enable it on its own after a short while to ensure your device is protected.
 
+### Windows Defender real time monitoring:
+Windows Defender Real-time protection is a core feature that continuously scans for malware, viruses, and other threats in real-time, automatically scanning files and apps as they're downloaded or accessed to prevent infections. It's enabled by default in Windows 10/11 and works in the background, though you can manage it in the Windows Security app or via settings for troubleshooting, like when software conflicts occur, by temporarily toggling it on/off or configuring exclusions. 
 
-
-
-
+* Continuous Scanning: Actively monitors your device for malicious files and activities.
+* Automatic Protection: Scans downloaded files, apps, and system activities without manual input.
+* Threat Detection: Identifies and helps remove malware, spyware, and other harmful software. 
 
 
 
