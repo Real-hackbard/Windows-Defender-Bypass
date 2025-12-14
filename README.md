@@ -96,7 +96,27 @@ for component data and
 
 for the service itself, protecting core system files/settings that only this account (part of Windows Modules Installer Service) manages. To modify these, you must first take ownership and grant permissions to your user account, a risky operation often done via services.msc or advanced security settings in File Explorer/Registry Editor. 
 
-
+# Windows Defender History:
+* 1	[Contents](https://microsoft.fandom.com/wiki/Microsoft_Defender#History)
+  * [1.1	Microsoft AntiSpyware (Beta 1)](https://microsoft.fandom.com/wiki/Microsoft_Defender#Microsoft_AntiSpyware_(Beta_1))
+  * [1.2	Windows Defender (Beta 2)](https://microsoft.fandom.com/wiki/Microsoft_Defender#Windows_Defender_(Beta_2))
+  * [1.3	Windows Defender - Release](https://microsoft.fandom.com/wiki/Microsoft_Defender#Windows_Defender_-_Release)
+  * [1.4	Windows Defender - Vista](https://microsoft.fandom.com/wiki/Microsoft_Defender#Windows_Defender_-_Vista)
+    * 1.4.1	Security agents
+    * 1.4.2	Software Explorer
+  * 1.5	Conversion to full antivirus
+  * 1.6	Ongoing evolution of UI and brands
+    * 1.6.1	UI changes
+    * 1.6.2	Changes in branding and business focus
+ * 2	Features
+   * 2.1	Application Guard
+   * 2.2	Browser integration
+   * 2.3	Controlled Folder Access
+   * 2.4	Real-time protection
+   * 2.5	Tamper Protection
+* 3	Reviews
+* 4	References
+* 5	External links
 
 
 
