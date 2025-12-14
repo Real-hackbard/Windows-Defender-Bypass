@@ -78,7 +78,23 @@ Protected Settings: When Tamper Protection is enabled, specific settings cannot 
 ### Windows Defender updates:
 To disable Windows Defender updates, you generally stop Real-time protection temporarily in Windows Security for immediate needs, but for longer control, use Group Policy Editor (```gpedit.msc```) to disable Defender itself (Pro/Enterprise) or specific update services via Services Manager (```services.msc```), or use PowerShell commands like Set-MpPreference -DisableRealtimeMonitoring $true, but it's often automatically re-enabled by Windows unless a third-party antivirus is installed. 
 
+### Windows bypass trusted installer:
+Bypassing TrustedInstaller permissions in the Windows registry generally requires taking ownership of the specific registry key or using elevated tools. There is no simple registry entry that globally disables this protection, as it is a core feature of Windows Resource Protection (WRP) designed to ensure system stability.
 
+To "bypass" the TrustedInstaller in Windows, you must take ownership of the specific file, folder, or registry key you want to modify, and then grant your administrator account full permissions. Direct removal or permanent disabling of the TrustedInstaller service is strongly discouraged as it is a core Windows component designed to protect system stability and security.
+
+The standard method involves changing the ownership from TrustedInstaller to the Administrators group or your specific user account.
+Warning: Modifying or deleting core system files or registry keys can cause system instability or prevent Windows from functioning correctly. Proceed with caution and ensure you know exactly what you are changing.
+
+There isn't a single "TrustedInstaller registry key path," but rather numerous system keys owned by the TrustedInstaller account, notably under
+
+```HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\``` 
+
+for component data and 
+
+```HKLM\SYSTEM\CurrentControlSet\Services\TrustedInstaller``` 
+
+for the service itself, protecting core system files/settings that only this account (part of Windows Modules Installer Service) manages. To modify these, you must first take ownership and grant permissions to your user account, a risky operation often done via services.msc or advanced security settings in File Explorer/Registry Editor. 
 
 
 
